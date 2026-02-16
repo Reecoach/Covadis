@@ -1,0 +1,482 @@
+[
+  {
+    "application": "messaging",
+    "ncc_method": "replay",
+    "disruptor": "model",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.5346,
+    "MI_embed_bits_per_symbol": 0.9999935078596925,
+    "MI_perturb_bits_per_symbol": 0.5954681869389065,
+    "cost_cc": 76.26718426445156,
+    "cost_benign": 534.8383954192558,
+    "cost_avg": 305.55278984185367,
+    "oov_embed": 1628,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "replay",
+    "disruptor": "random_20",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.7639,
+    "MI_embed_bits_per_symbol": 0.9999935078596925,
+    "MI_perturb_bits_per_symbol": 0.9196472567069885,
+    "cost_cc": 0.0850646575282236,
+    "cost_benign": 0.0596534530267686,
+    "cost_avg": 0.0723590552774961,
+    "oov_embed": 1628,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "replay",
+    "disruptor": "random_50",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.7136,
+    "MI_embed_bits_per_symbol": 0.9999935078596925,
+    "MI_perturb_bits_per_symbol": 0.8980418102946561,
+    "cost_cc": 0.22006811733658782,
+    "cost_benign": 0.16346807056017507,
+    "cost_avg": 0.19176809394838146,
+    "oov_embed": 1628,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "replay",
+    "disruptor": "random_100",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.6803,
+    "MI_embed_bits_per_symbol": 0.9999935078596925,
+    "MI_perturb_bits_per_symbol": 0.8851431122523484,
+    "cost_cc": 0.49929429183717056,
+    "cost_benign": 0.5005072275329695,
+    "cost_avg": 0.49990075968507003,
+    "oov_embed": 1628,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "replay",
+    "disruptor": "fixed",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.0806,
+    "MI_embed_bits_per_symbol": 0.9999935078596925,
+    "MI_perturb_bits_per_symbol": 0.0860845229126213,
+    "cost_cc": 735.6510870683611,
+    "cost_benign": 2005.3328853075193,
+    "cost_avg": 1370.4919861879403,
+    "oov_embed": 1628,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "replay",
+    "disruptor": "ditto",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.3798,
+    "MI_embed_bits_per_symbol": 0.9999935078596925,
+    "MI_perturb_bits_per_symbol": 0.6095739049692498,
+    "cost_cc": 11.063454684807311,
+    "cost_benign": 22.914128197523173,
+    "cost_avg": 16.98879144116524,
+    "oov_embed": 1628,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "fixed",
+    "disruptor": "model",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.0076,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": 0.6361585868155091,
+    "cost_cc": 553.9346250666789,
+    "cost_benign": 531.292149578064,
+    "cost_avg": 542.6133873223714,
+    "oov_embed": 1,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "fixed",
+    "disruptor": "random_20",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.5263,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": 0.9999935078596924,
+    "cost_cc": 0.05017973333333313,
+    "cost_benign": 0.05963552457218113,
+    "cost_avg": 0.05490762895275713,
+    "oov_embed": 1,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "fixed",
+    "disruptor": "random_50",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.5019,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": 0.9999935078596924,
+    "cost_cc": 0.13346386666666626,
+    "cost_benign": 0.1620260230520958,
+    "cost_avg": 0.14774494485938103,
+    "oov_embed": 1,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "fixed",
+    "disruptor": "random_100",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.2558,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": 0.9999935078596928,
+    "cost_cc": 0.4968953333333326,
+    "cost_benign": 0.5034675772208396,
+    "cost_avg": 0.500181455277086,
+    "oov_embed": 1,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "fixed",
+    "disruptor": "fixed",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.0,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": -1.4428458428028534e-12,
+    "cost_cc": 2491.243240666846,
+    "cost_benign": 2005.3328853075193,
+    "cost_avg": 2248.2880629871825,
+    "oov_embed": 1,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "fixed",
+    "disruptor": "ditto",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.0,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": 0.9999935078596924,
+    "cost_cc": 28.376740666665945,
+    "cost_benign": 22.914128197523173,
+    "cost_avg": 25.64543443209456,
+    "oov_embed": 1,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "modulo",
+    "disruptor": "model",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.4735,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": 0.05544732231980272,
+    "cost_cc": 214.10738575182995,
+    "cost_benign": 534.0208157500539,
+    "cost_avg": 374.0641007509419,
+    "oov_embed": 1763,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "modulo",
+    "disruptor": "random_20",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.6227,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": 0.6031660421577251,
+    "cost_cc": 0.09101040100845376,
+    "cost_benign": 0.05979318428361212,
+    "cost_avg": 0.07540179264603294,
+    "oov_embed": 1763,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "modulo",
+    "disruptor": "random_50",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.5575,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": 0.5536839504155445,
+    "cost_cc": 0.24287099735632192,
+    "cost_benign": 0.16356163359380632,
+    "cost_avg": 0.20321631547506414,
+    "oov_embed": 1763,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "modulo",
+    "disruptor": "random_100",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.5382,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": 0.5290959610431287,
+    "cost_cc": 0.49995126587626815,
+    "cost_benign": 0.5029285124544449,
+    "cost_avg": 0.5014398891653565,
+    "oov_embed": 1763,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "modulo",
+    "disruptor": "fixed",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.5726,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": 0.14180322447631855,
+    "cost_cc": 384.16815034406,
+    "cost_benign": 2005.3328853075193,
+    "cost_avg": 1194.7505178257898,
+    "oov_embed": 1763,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "modulo",
+    "disruptor": "ditto",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 1.0,
+    "acc_after": 0.556,
+    "MI_embed_bits_per_symbol": 0.9999935078596924,
+    "MI_perturb_bits_per_symbol": 0.1447370059158627,
+    "cost_cc": 7.222324355597678,
+    "cost_benign": 22.914128197523173,
+    "cost_avg": 15.068226276560425,
+    "oov_embed": 1763,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "model",
+    "disruptor": "model",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 0.999,
+    "acc_after": 0.5742,
+    "MI_embed_bits_per_symbol": 0.9971812939816589,
+    "MI_perturb_bits_per_symbol": 0.19114229212186984,
+    "cost_cc": 222.73267279796343,
+    "cost_benign": 530.8819874384455,
+    "cost_avg": 376.8073301182045,
+    "oov_embed": 1691,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "model",
+    "disruptor": "random_20",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 0.999,
+    "acc_after": 0.9368,
+    "MI_embed_bits_per_symbol": 0.9971812939816589,
+    "MI_perturb_bits_per_symbol": 0.9118200841685817,
+    "cost_cc": 0.08500421739492223,
+    "cost_benign": 0.05974825143898247,
+    "cost_avg": 0.07237623441695235,
+    "oov_embed": 1691,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "model",
+    "disruptor": "random_50",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 0.999,
+    "acc_after": 0.9187,
+    "MI_embed_bits_per_symbol": 0.9971812939816589,
+    "MI_perturb_bits_per_symbol": 0.8941293330314412,
+    "cost_cc": 0.22190048614173993,
+    "cost_benign": 0.16339296781529775,
+    "cost_avg": 0.19264672697851884,
+    "oov_embed": 1691,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "model",
+    "disruptor": "random_100",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 0.999,
+    "acc_after": 0.9005,
+    "MI_embed_bits_per_symbol": 0.9971812939816589,
+    "MI_perturb_bits_per_symbol": 0.8867208734364425,
+    "cost_cc": 0.49504319592086377,
+    "cost_benign": 0.5045211315836777,
+    "cost_avg": 0.49978216375227075,
+    "oov_embed": 1691,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "model",
+    "disruptor": "fixed",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 0.999,
+    "acc_after": 0.4985,
+    "MI_embed_bits_per_symbol": 0.9971812939816589,
+    "MI_perturb_bits_per_symbol": 0.08927702639621866,
+    "cost_cc": 741.9944020453834,
+    "cost_benign": 2005.3328853075193,
+    "cost_avg": 1373.6636436764513,
+    "oov_embed": 1691,
+    "oov_test": 4514
+  },
+  {
+    "application": "messaging",
+    "ncc_method": "model",
+    "disruptor": "ditto",
+    "K": 2,
+    "P_K": [
+      0.5,
+      0.5
+    ],
+    "L": 10000,
+    "embed_accuracy": 0.999,
+    "acc_after": 0.7512,
+    "MI_embed_bits_per_symbol": 0.9971812939816589,
+    "MI_perturb_bits_per_symbol": 0.6112480753719954,
+    "cost_cc": 11.211840599804153,
+    "cost_benign": 22.914128197523173,
+    "cost_avg": 17.062984398663662,
+    "oov_embed": 1691,
+    "oov_test": 4514
+  }
+]
