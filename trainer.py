@@ -7,7 +7,6 @@ from __future__ import annotations
 
 import os
 import json
-import numpy as np
 import tensorflow as tf
 from dataclasses import asdict
 from fig_utils import *

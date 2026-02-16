@@ -13,28 +13,6 @@ from __future__ import annotations
 import json
 import numpy as np
 
-
-def generate_test_instructions(ncc_type: list, disruptor_type: list, application_type: list, P_K_values: list = None):
-    """
-    生成测试指令的组合
-    """
-    if P_K_values is None:
-        P_K_values = [
-            [0.1, 0.9],
-            [0.2, 0.8],
-            [0.3, 0.7],
-            [0.4, 0.6],
-            [0.5, 0.5],
-        ]
-
-    return [
-        {"ncc": ncc, "disruptor": disruptor, "application": application, "P_K": pk}
-        for ncc, disruptor, application, pk in product(ncc_type, disruptor_type, application_type, P_K_values)
-    ]
-
-import numpy as np
-
-
 def sanitize_positive_floats(feature_pool_float):
     values = []
     for x in feature_pool_float:

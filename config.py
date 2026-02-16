@@ -28,7 +28,7 @@ class BaseConfig:
     # --------------------------------------------------------
     # Dataset and IO
     # --------------------------------------------------------
-    traffic_dir: str = "/home/lihaozhi/dataset/parsed"
+    traffic_dir: str = "traffic"
     dataset_name: str = "ISCX"
 
     # --------------------------------------------------------
